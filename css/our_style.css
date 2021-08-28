@@ -1,0 +1,503 @@
+/* Base of style part was extracted from demo page of code igniter CL 18.4.2021 */
+
+
+html, body {
+    color: rgba(33, 37, 41, 1);
+    background-color: rgb(20, 157, 221);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+header {
+    background-color: rgba(247, 248, 249, 1);
+    padding: .4rem 0 0;
+}
+.menu {
+    padding: .4rem 2rem;
+}
+header ul {
+    border-bottom: 1px solid rgba(242, 242, 242, 1);
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+}
+header li {
+    display: inline-block;
+}
+header li a {
+    border-radius: 5px;
+    color: rgba(0, 0, 0, .5);
+    display: block;
+    height: 44px;
+    text-decoration: none;
+}
+header li.menu-item a {
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 38px;
+    line-height: 36px;
+    padding: .4rem .65rem;
+    text-align: center;
+}
+header li.menu-item a:hover,
+header li.menu-item a:focus {
+    background-color: rgba(221, 72, 20, .2);
+    color: rgb(20, 157, 221);
+}
+header .logo {
+    float: left;
+    height: 44px;
+    padding: .4rem .5rem;
+}
+header .menu-toggle {
+    display: none;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+header .menu-toggle button {
+    background-color: rgb(20, 157, 221);
+    border: none;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.3rem;
+    height: 36px;
+    padding: 0;
+    margin: 11px 0;
+    overflow: visible;
+    width: 40px;
+}
+header .menu-toggle button:hover,
+header .menu-toggle button:focus {
+    background-color: rgb(20, 157, 221);
+    color: rgba(255, 255, 255, .8);
+}
+header .heroe {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 1rem 1.75rem 1.75rem 1.75rem;
+}
+header .heroe h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+header .heroe h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+section {
+    margin: 0 auto;
+    max-width: 1900px;
+    max-height: 1080px;
+  /*  padding: 2.5rem 1.75rem 3.5rem 1.75rem; */
+}
+.container {
+    width: auto;
+    background-color: white;
+}
+
+section h1 {
+    margin-bottom: 2.5rem;
+}
+section h2 {
+    font-size: 120%;
+    line-height: 2.5rem;
+    padding-top: 1.5rem;
+}
+section pre {
+    background-color: rgba(247, 248, 249, 1);
+    border: 1px solid rgba(242, 242, 242, 1);
+    display: block;
+    font-size: .9rem;
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+section code {
+    display: block;
+}
+section a {
+    color: rgb(20, 157, 221);
+}
+section svg {
+    margin-bottom: -5px;
+    margin-right: 5px;
+    width: 25px;
+}
+.further {
+    background-color: rgba(247, 248, 249, 1);
+    border-bottom: 1px solid rgba(242, 242, 242, 1);
+    border-top: 1px solid rgba(242, 242, 242, 1);
+}
+.further h2:first-of-type {
+    padding-top: 0;
+}
+footer {
+    background-color: rgb(20, 157, 221);
+    text-align: center;
+}
+footer .environment {
+    color: rgba(255, 255, 255, 1);
+    padding: 2rem 1.75rem;
+}
+footer .copyrights {
+    background-color: rgba(62, 62, 62, 1);
+    color: rgba(200, 200, 200, 1);
+    padding: .25rem 1.75rem;
+}
+@media (max-width: 720px) {
+    header ul {
+        padding: 0;
+    }
+    header .menu-toggle {
+        padding: 0 1rem;
+    }
+    header .menu-item {
+        background-color: rgba(244, 245, 246, 1);
+        border-top: 1px solid rgba(242, 242, 242, 1);
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    }
+    header .menu-toggle {
+        display: block;
+    }
+    header .hidden {
+        display: none;
+    }
+    header li.menu-item a {
+        background-color: rgba(221, 72, 20, .1);
+    }
+    header li.menu-item a:hover,
+    header li.menu-item a:focus {
+        background-color: rgb(20, 157, 221);
+        color: rgba(255, 255, 255, .8);
+    }
+}
+
+/* our own part of styling added to the page after 25.4.2021 by cdesigner.eu */
+
+/* I - news - single article view after visiting article from main news overview through View article */
+.news_singleview_h2_title {
+    color: rgb(20, 157, 221);
+    padding-left: 5px;
+    border-left: 5px solid rgb(20, 157, 221);
+
+}
+
+.news_singleview_p_body {
+    color: white;
+    background-color:  rgb(20, 157, 221);
+    padding: 20px 10px 20px 10px;
+
+}
+
+/* buttons styling */
+button {
+    border: none;
+    background-color: rgb(20, 157, 221); 
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+}
+
+button:hover {
+    border: none;
+    background-color: rgba(255, 68, 0, 0.8);  
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+    font-style: italic;
+}
+
+/* news articles hyperlink on news page */
+.news_article_hyperlink {
+    text-decoration: none;
+    
+
+
+} 
+
+.news_article_hyperlink:visited {
+   color: darkgray; 
+
+}
+
+.article_header {
+    color: rgba(75, 75, 75, 0.8);
+    padding-left: 5px;
+    border-left: 5px solid rgba(75, 75, 75, 0.8);
+
+}
+
+.article_header_about {
+    color: rgba(75, 75, 75, 0.8);
+    padding-left: 10px;
+    border-left: 35px solid rgba(75, 75, 75, 0.8);
+    border-right: 35px solid rgba(75, 75, 75, 0.8);
+
+}
+
+
+.article_body {
+    color: white;
+    background-color:  rgb(20, 157, 221);
+    padding: 20px 10px 20px 10px;
+
+    -webkit-border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.52); 
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.52);
+    
+}
+
+.article_body_about {
+    color: white;
+    background-color:   rgb(20, 157, 221);
+    padding: 20px 10px 20px 10px;
+
+    -webkit-border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.52); 
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.52);
+
+    margin-bottom: 40px;
+
+    
+    
+}
+
+.article_hyperlink {
+    background-color: rgb(255, 255, 255);
+    color: rgba(192, 192, 192, 0.8);
+    padding: 0px 10px 1px 10px;
+    width: fit-content;
+    
+    -webkit-border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+
+    
+
+    margin-top: 20px;
+}
+
+/* textarea */
+textarea#textarea_styled {
+    width: 1000px;
+	height: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    
+	/* background-image: url(bg.gif); */
+	background-position: bottom right;
+	background-repeat: no-repeat;
+
+}
+
+/* input button */
+#input_button_delete {
+    border: none;
+    background-color: rgb(20, 157, 221);
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+
+}
+
+#input_button_update {
+    border: none;
+    background-color: rgba(75, 75, 75, 0.8);  
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+
+}
+
+#input_button_publish {
+    border: none;
+    background-color: rgba(255, 193, 22, 0.8);  
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+
+}
+
+#input_button_unpublish {
+    border: none;
+    background-color: rgba(34, 190, 60, 0.8);  
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+
+}
+
+#input_button_create {
+    border: none;
+    background-color: rgba(255, 136, 57, 0.8);  
+    color: white; 
+    padding: 15px; 
+    border-radius: 15px;
+
+}
+
+/* main header style for h1 */
+.main_h1 {
+    color: rgb(20, 157, 221);
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: rgba(100, 100, 100, 0.8);
+}
+
+legend {
+    font-weight: bold;
+    color: rgba(221, 72, 20, .8);
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+
+
+/* baner bootom nav on loged in user page - further info about wisiting admimin backend part of web */
+.backand_loged_user_info {
+    background-color: rgb(75, 75, 75);
+    color: white;
+   
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 60px;
+
+}
+
+.backand_loged_user_info-text{
+    padding: 15px 5px 20px 20px;
+}
+
+
+
+
+section {
+    background-color: white;
+}
+
+/* scrooling text with css features */
+/* for further use please read article https://stackoverflow.com/questions/32638465/how-to-scroll-text-smoothly-using-html5 */
+
+        * {
+            margin:0;
+            padding:0;
+            border:0;
+        }
+        
+        @keyframes slide {
+            from { left: 100%;}
+            to { left: -100%;}
+          }
+          @-webkit-keyframes slide {
+            from { left: 100%;}
+            to { left: -100%;}
+          }
+          
+          #marquee { 
+            color:rgb(255, 255, 255); 
+            background:#494949;
+            width:100%;
+            height:120px;
+            line-height:120px;
+            overflow:hidden;
+            position:relative;
+          }
+          
+          #text {
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:120px;
+            font-size:30px;
+            animation-name: slide;
+            animation-duration: 30s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            -webkit-animation-name: slide;
+            -webkit-animation-duration: 30s;
+            -webkit-animation-timing-function:linear;
+            -webkit-animation-iteration-count: infinite;
+          }
+
+   /* margins for block elements */
+   .margin_for_block {
+       margin: 10px 0px 10px 10px;
+
+   }  
+   
+   .blue_background {
+       background-color: rgb(20, 157, 221);
+   }
+
+   .white_text {
+       color: white;
+      
+   }
+
+   .padding_main_slogan {
+       padding-top: 140px;
+   }
+
+   /* formating for up down scrolling block along video area */
+   div.block {
+   /* border: 1px solid #000000; */
+    max-width: 700x; /* this part adjust width and height of the scrolling element */
+    max-height: 570px;
+    overflow-y: auto;
+  }
+  div.block::-webkit-scrollbar {
+      display: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .large_scroll_down_text {
+    font-size:24px;
+  }
+
+  .dimensions_of_scrolling_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  
+
+

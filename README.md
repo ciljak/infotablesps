@@ -1,1 +1,1 @@
-infotablesps
+infotable
