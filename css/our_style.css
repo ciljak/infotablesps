@@ -95,7 +95,7 @@ header .heroe h2 {
 }
 section {
     margin: 0 auto;
-    max-width: 1900px;
+    max-width: 1920px;
     max-height: 1080px;
   /*  padding: 2.5rem 1.75rem 3.5rem 1.75rem; */
 }
@@ -498,9 +498,24 @@ section {
     width: 50%;
   }
 
+  .dimensions_of_zsklogo {
+   
+    width: 160px;
+    margin-left: 50px;
+  }
+
+  .dimensions_of_martinlogo {
+   
+    width: 200px;
+    margin-left: 10px;
+  }
+
+
+
   img.main_logo {
     display: block; 
     padding-top: 10px; 
+    width: 310px;
   }
   hr {
     height: 1px;

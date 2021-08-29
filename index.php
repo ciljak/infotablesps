@@ -17,6 +17,7 @@
                 </div>	
 
                 <div class="col-3">
+                
                     <h1 class="main_h1">  Day and weather</h1>
                     <div id='widgetweather' style='width:400px; height:225px;position:relative;'><span class="wheatherHide">
                         <a href="https://pocasie.aktuality.sk/martin/">Martin</a></span></div>
@@ -43,7 +44,9 @@
 
             <div class="col-6">
                  <div class="margin_for_block">
-                      <h1 class="main_h1">  Aktuálne študijné možnosti </h1>
+                      <h1 class="main_h1">  Aktuálne študijné možnosti <img class="dimensions_of_zsklogo" src="pictures/logozsk.jpg"  /> 
+                      <img class="dimensions_of_martinlogo" src="pictures/logomartin.jpg"  />
+                      </h1>
                         <!-- example of content scrolling block -->
                         <div class="block scrolldown" id="container">
                             <!-- beggining of looping part --> 
@@ -277,7 +280,9 @@
                                 </li>
                             </ul>
                             <!-- end of looping part --> 
+                            
                         </div>
+                        
                 </div>     
             </div>	
 
@@ -289,8 +294,10 @@
         <div class="row"> <!-- III. row - scoorling part -->
         <!-- third row span across whole container and will scrool info -->
             <div class="col-12">
+            
                 <div id="marquee">
-                    <div id="text">Informačná tabuľa realizovaná s finančnou podporou mesta Martin. <?php echo " Dnes je " . date("l").", " . date("d.m.Y") .  "<br>" ?>;
+                    <div id="text">Informačná tabuľa realizovaná s finančnou podporou mesta Martin. <?php echo " Dnes je " . date("l").", " . date("d.m.Y") .  "<br>" ?> ;
+                    
 
                     </div>
                 </div>
