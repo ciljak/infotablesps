@@ -44,8 +44,8 @@
 
             <div class="col-6">
                  <div class="margin_for_block">
-                      <h1 class="main_h1">  Aktuálne študijné možnosti <img class="dimensions_of_zsklogo" src="pictures/logozsk.jpg"  /> 
-                      <img class="dimensions_of_martinlogo" src="pictures/logomartin.jpg"  />
+                      <h1 class="main_h1">  Aktuálne študijné možnosti <img class="dimensions_of_zsklogo" src="pictures/logozsk.jpg"  width="160"/> 
+                      <img class="dimensions_of_martinlogo" src="pictures/logomartin.jpg"  width="160" />
                       </h1>
                         <!-- example of content scrolling block -->
                         <div class="block scrolldown" id="container">
@@ -125,37 +125,9 @@
                                     <hr></br>
                                 </li>
 
-                                <li>
-                                <h1 class="main_h1">Erasmus+</h1>
-                                    
-                                    <p class="large_scroll_down_text"> Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. 
-                                        Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-                                        Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit. Donec sollicitudin molestie malesuada. Sed porttitor lectus nibh.
+                               
 
-                                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Donec sollicitudin molestie malesuada. 
-                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla quis lorem ut libero malesuada feugiat. 
-                                        Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-
-                                        Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. 
-                                        Nulla porttitor accumsan tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                        Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus.
-
-                                    </p>
-                                    
-                                   
-                                
-                                    <hr></br>
-                                </li>
-
-                                <li>
-                                <h1 class="main_h1">Vyučovanie cudzích jazykov</h1>
-                                    
-                                    
-                                    
-
-                                    <hr></br>
-                                </li>
+                               <!-- this part can be further adapted for presentation needs
 
                                 <li>
                                 <h1 class="main_h1">Učebné priestory školy</h1>
@@ -278,6 +250,7 @@
 
                                     <hr></br>
                                 </li>
+                            -->
                             </ul>
                             <!-- end of looping part --> 
                             
@@ -296,7 +269,7 @@
             <div class="col-12">
             
                 <div id="marquee">
-                    <div id="text">Informačná tabuľa realizovaná s finančnou podporou mesta Martin. <?php echo " Dnes je " . date("l").", " . date("d.m.Y") .  "<br>" ?> ;
+                    <div id="text">Informačná tabuľa realizovaná s finančnou podporou mesta Martin. <?php  /* need implementation of function for conversion a date from english to slovak language echo " Dnes je " . date("l").", " . date("d.m.Y") .  "<br>" */?> 
                     
 
                     </div>
